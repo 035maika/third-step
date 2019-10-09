@@ -60,8 +60,8 @@ int main(){
 
 	printf("○英語\n");
 	printf("平均: %lf\n", Eave);
-        printf("標準偏差: %lf\n", Estd);
-        printf("合計点: %d\n", Esum);
+	printf("標準偏差: %lf\n", Estd);
+	printf("合計点: %d\n", Esum);
 
 	for(int i=0; i<NUM; i++){
 		stu[i].sc = sts(Sscore[i], Save, Sstd);
